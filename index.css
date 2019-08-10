@@ -1,0 +1,58 @@
+/*css에서 tag는 최대한 순서대로 적는게 좋다.*/
+hr {
+    border: none;
+    border-top: 2px dashed blue;
+/*   hr은 기본적으로 사각형으로 되어 있음 */
+}
+
+a {
+    font-size: 20px;
+    width: 100px;
+    font-weight: bold;
+    background-color: darkturquoise;
+    border: 1px solid darkturquoise;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+#title1 {
+    padding-bottom: 650px;
+}
+
+b {
+    font-weight: normal;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+
+kbd {
+    color: white;
+    padding: 0 3px;
+    border-radius: 3px;
+    border: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+    /*background-color: lightgrey;*/
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
